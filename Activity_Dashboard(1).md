@@ -18,3 +18,6 @@ The analyst should immediately click See detection on the right to review the af
  
 The charts show periods of relatively low activity followed by spikes in high-risk tactics—including Defense Evasion, Command and Control, and Impact—on dates such as 06-18, 06-22, 07-11, and 07-14. These increases may indicate changes in attack activity and warrant further investigation.
 
+**Detections by Tactics & New Detections (Attack Trends and Spike Analysis)**
+
+The charts below show periods of low activity followed by spikes in higher-risk tactics, including Defense Evasion, Command and Control, and Impact, on dates such as 06-18, 06-22, 07-11, and 07-14. These spikes may warrant further investigation

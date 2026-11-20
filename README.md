@@ -1,1 +1,1 @@
-대시보드에 알람이 뜨면 SOC Analyst가 위험을 인식하고 우선순위에 따라 작업해야 함.
+This lab focuses on understanding EDR concepts through hands-on practice with security tools. It also explores how to review EDR alerts and map related activities to MITRE ATT&CK tactics and techniques.

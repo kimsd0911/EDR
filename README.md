@@ -1,1 +1,1 @@
-This lab focuses on understanding EDR concepts through hands-on practice with security tools. It also explores how to review EDR alerts and map related activities to MITRE ATT&CK tactics and techniques.
+This lab focuses on understanding **EDR concepts** through hands-on practice with security tools. It also explores how to review EDR alerts and map related activities to **MITRE ATT&CK** tactics and techniques.

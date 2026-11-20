@@ -1,4 +1,4 @@
-![Process(3)](Process(3).png)
+![Process]((3)Process.png)
 
 Each node represents a process, and the lines connecting the nodes represent the relationships between them.
 

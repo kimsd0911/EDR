@@ -1,9 +1,9 @@
 ## Activity Dashboard Triage & Prioritization
 
-Activity dashboard에서 SOC Analyst는 전체 New detections 수보다 실제 위협도가 높은 Alert를 우선 선별해 Triage를 수행합니다[cite: 4].
+On the Activity Dashboard, a SOC Analyst prioritizes high-risk alerts over the total volume of new detections to conduct effective alert triage[cite: 3, 4].
 
 ![Activity_Dashboard](Activity_Dashboard.png)
 
-* **Priority Alert**: 빨간색으로 표시된 `High` Severity 경보 세 건을 최우선 조사 대상으로 분류합니다[cite: 4, 7].
-* **MITRE ATT&CK Context**: `Command and Control via Remote...` 항목은 내부 Host가 외부 C2 인프라와 통신을 시도하는 고위험 행위를 의미합니다[cite: 4, 7].
-* **Investigation Step**: `See detection`을 클릭해 상세 Process, Command Line, 외부 통신 대상을 확인하고 Host Isolation 여부를 판단합니다[cite: 4, 7].
+* **Priority Alerts**: Highlighted in red, the three `High` severity detections are prioritized for immediate investigation[cite: 3, 6].
+* **MITRE ATT&CK Context**: The `Command and Control via Remote...` classification indicates high-risk activity where an internal host attempts to communicate with an external C2 server[cite: 3, 6].
+* **Next Investigation Steps**: Click `See detection` to inspect the underlying process tree, command-line arguments, and external network connections to determine whether immediate host isolation is required[cite: 3, 4, 6].

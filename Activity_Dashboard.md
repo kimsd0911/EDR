@@ -15,5 +15,5 @@ All three of the top detections currently have a High severity rating and are ca
 The analyst should immediately click See detection on the right to review the affected Host ID, the process involved, and the external IP address. Based on those details, the analyst should assess whether to place the host in Network Containment.
 
 Detections by Tactic and New Detections: Analyzing Attack Trends and Spikes
-
+ 
 The charts show periods of relatively low activity followed by spikes in high-risk tactics—including Defense Evasion, Command and Control, and Impact—on dates such as 06-18, 06-22, 07-11, and 07-14. These increases may indicate changes in attack activity and warrant further investigation.

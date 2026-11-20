@@ -18,12 +18,4 @@ Detections by Tactic and New Detections: Analyzing Attack Trends and Spikes
  
 The charts show periods of relatively low activity followed by spikes in high-risk tactics—including Defense Evasion, Command and Control, and Impact—on dates such as 06-18, 06-22, 07-11, and 07-14. These increases may indicate changes in attack activity and warrant further investigation.
 
-## Activity Dashboard Triage & Prioritization
 
-On the Activity Dashboard, a SOC Analyst prioritizes high-risk alerts over the total volume of new detections to conduct effective alert triage.
-
-![Activity Dashboard](images/Activity_Dashboard.png)
-
-* **Priority Alerts**: Highlighted in red, the three `High` severity detections are prioritized for immediate investigation.
-* **MITRE ATT&CK Context**: The `Command and Control via Remote...` classification indicates high-risk activity where an internal host attempts to communicate with an external C2 server.
-* **Next Investigation Steps**: Click `See detection` to inspect the underlying process tree, command-line arguments, and external network connections to determine whether immediate host isolation is required.

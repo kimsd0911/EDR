@@ -1,4 +1,4 @@
-🛡️ **EDR (Endpoint Detection and Response)**
+ 1. **EDR (Endpoint Detection and Response)**
 Endpoint Detection and Response (EDR) is a security solution that provides in-depth protection for endpoints.
 
 Each node represents a process.

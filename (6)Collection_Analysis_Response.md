@@ -22,7 +22,7 @@
     • If a malicious file reaches an endpoint, analysts can quarantine it. Quarantine moves the file to a separate location where it cannot be executed. After reviewing the file, analysts can restore it or permanently delete it.
     • Analysts can also remotely access endpoint shells to run commands and scripts.
 
-    ![CrowdStrike)]((6)CrowdStrike.png)
+    ![CrowdStrike)](CrowdStrike.png)
     (CrowdStrike Falcon is a relevant EDR platform used in managed security environments, including MSSP operations.)
 
     1. Falcon Real Time Response (This work goes beyond basic monitoring and involves hands-on security analysis.)

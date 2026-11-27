@@ -3,6 +3,7 @@ Endpoint Telemetry(Summary)
 Telemetry is event data collected to help observe and analyze activity on a system. In endpoint security, this includes records of processes run on PCs or servers, network connections, file changes, and other events. Rather than judging an activity as malicious based on a single event, analysts should correlate related events—such as process execution, network connections, and file changes—to understand the broader context.
 
 ![(5)Telemetry)]((5)Telemetry.png)
+
 Commonly Collected Data
     • Which user or account launched a process
     • Which process was launched

@@ -1,0 +1,36 @@
+1. Telemetry
+    • EDR environments contain a mix of legitimate and malicious activity, and distinguishing between the two can be challenging. Collecting more relevant data can support better-informed decisions.
+    • The following are examples of telemetry collected by EDR systems.
+① Process Executions and Terminations
+    • Track processes, including those that are running or idle.
+    • Attacker activity may include preparing to exfiltrate data, executing ransomware, or installing malicious files.
+    • EDR tracks these activities, helping analysts detect advanced threats and better assess whether observed behavior is legitimate.
+    • Analysts can understand the full chain of events, identify the root cause, and reconstruct the attack timeline.
+
+2. Detection and Response Capabilities
+    • In this module, we explore advanced detection techniques and response mechanisms.
+
+3. Response
+    • Detection is followed by response.
+    • EDR systems support both manual and automated responses. Manual response can give analysts more flexibility in choosing how to respond.
+    • If malicious activity occurs on an endpoint, analysts can use EDR to isolate that endpoint from the network.
+    • Many attacks begin on one endpoint, then spread laterally to others, potentially compromising the wider network. Isolating an infected endpoint can help prevent this spread.
+    • Some hosts support critical business operations, so isolating them could cause greater disruption than the malicious activity itself. In such cases, terminating the malicious process instead of isolating the host may be more appropriate.
+    • Analysts can terminate processes on an endpoint.
+    • If a malicious file reaches an endpoint, analysts can quarantine it. Quarantine moves the file to a separate location where it cannot be executed. After reviewing the file, analysts can restore it or permanently delete it.
+    • Analysts can also remotely access endpoint shells to run commands and scripts.
+
+    ![(6)CrowdStrike)]((6)CrowdStrike.png)
+    (CrowdStrike Falcon is a relevant EDR platform used in managed security environments, including MSSP operations.)
+
+    1. Falcon Real Time Response (This work goes beyond basic monitoring and involves hands-on security analysis.)
+        ◦ Analysts access an endpoint shell to run commands and scripts.
+        ◦ In some cases, analysts may need to collect endpoint artifacts—such as memory dumps, event logs, contents of specific folders, or registry hives—for in-depth forensic investigations or reports supporting potential legal action.
+
+    2. Hands-on Exercise Scenario
+        ◦ In this exercise, you have access to an EDR platform as a SOC analyst and receive multiple high-severity detections. For each detection, you prioritize the alert and assess whether it represents a real attack. In practice, EDR platforms are often used alongside SIEM systems.
+
+        ![alt text](Absolute_Path.png)
+        Verify the absolute path: I opened the related events on the high-severity host DESKTOP-HR01. and compared the process execution flow with file-creation events. In the Process Info tab, I identified the process responsible for the download, then checked the target path in the file-creation event to determine the payload’s absolute path. 
+
+    

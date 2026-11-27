@@ -1,6 +1,6 @@
 Connected to a live Linux endpoint via Falcon Real Time Response to hunt for PHP web shell indicators in /var/www/html and validate potential compromise before containment..
 
-![CrowdStrike_Falcon]((4)CrowdStrike_Falcon.png)
+![CrowdStrike_Falcon](CrowdStrike_Falcon.png)
 
 As a SOC Analyst, being proficient in core Linux commands like grep, ls, cat, ps, and netstat/ssis essential for rapidly triaging files, logs, processes, and network states during an alert. 
 
